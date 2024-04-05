@@ -3,3 +3,4 @@
 -- Add any additional keymaps here
 local map = LazyVim.safe_keymap_set
 map("n", "<C-a>", "<cmd>%y+<cr>", { desc = "Copy all file content" })
+map("t", "<C-l>", "clear<cr>", { desc = "Clear terminal" })
