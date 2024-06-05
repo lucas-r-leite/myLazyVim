@@ -4,6 +4,7 @@
 local map = LazyVim.safe_keymap_set
 map("n", "<C-a>", "<cmd>%y+<cr>", { desc = "Copy all file content" })
 map("t", "<C-l>", "clear<cr>", { desc = "Clear terminal" })
+vim.keymap.set("n", "<leader>um", "<cmd>MarkdownPreviewToggle<CR>")
 
 -- Navagation vim panes better
 --vim.keymap.set("n", "<c-k>", ":wincmd k<CR>")
